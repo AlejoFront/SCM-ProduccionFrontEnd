@@ -1,6 +1,6 @@
 import { Injectable } from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {RawMaterialRequests} from '../model/rawMaterialRequests'
+import {RawMaterialRequests} from '../model/RawMaterialRequests';
 import {Global} from '../services/global'
 import { Observable, from, Subject } from 'rxjs';
 export class RawMaterialRequestsClass{

@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute, Params} from '@angular/router';
 import {RawMaterialRequestsService, RawMaterialRequestsClass} from '../../../../services/rawMaterialRequests-service.service'
-import {RawMaterialRequests} from '../../../../model/rawMaterialRequests'
+import {RawMaterialRequests} from '../../../../model/RawMaterialRequests'
 import { MatDialog } from "@angular/material/dialog";
 import {DialogActionComponent} from '../dialog/dialog-action/dialog-action.component'
 import {ShowDialogNumberBatchComponent} from '../list-raw-material-requests/show-dialog-number-batch/show-dialog-number-batch.component'

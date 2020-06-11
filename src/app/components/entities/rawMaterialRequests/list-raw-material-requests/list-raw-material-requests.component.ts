@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {RawMaterialRequests} from '../../../../model/rawMaterialRequests'
+import {RawMaterialRequests} from '../../../../model/RawMaterialRequests'
 import {RawMaterialRequestsService} from '../../../../services/rawMaterialRequests-service.service'
 import { MatDialog } from "@angular/material/dialog";
 import {DialogConfirmationProductionsComponent} from '../../productions/components/dialog/dialog-confirmation/dialog-confirmation.component'

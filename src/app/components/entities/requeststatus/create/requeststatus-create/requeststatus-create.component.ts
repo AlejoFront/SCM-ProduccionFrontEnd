@@ -27,7 +27,7 @@ export class RequeststatusCreateComponent implements OnInit {
 
   save() {
     this.requestateService.addRequestStates(this.requeststatus).subscribe(response => {
-      if (this.status === 'success') {
+      if (this.status = 'success') {
         swal(
           'Estado de la maquina creada!!',
           'El estado de la maquina se ha creado correctamente',

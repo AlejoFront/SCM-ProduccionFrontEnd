@@ -2,7 +2,7 @@ import { Component, OnInit, ViewChild } from '@angular/core';
 import {MatPaginator} from '@angular/material/paginator';
 import { MatSort } from '@angular/material/sort';
 import {MatTableDataSource} from '@angular/material/table'; 
-import {RawMaterialRequests} from '../../../../model/rawMaterialRequests'
+import {RawMaterialRequests} from '../../../../model/RawMaterialRequests'
 import {RawMaterialRequestsService} from '../../../../services/rawMaterialRequests-service.service'
 import { MatDialog } from "@angular/material/dialog";
 import {ShowDialogNumberBatchComponent} from '../../../../components/entities/rawMaterialRequests/list-raw-material-requests/show-dialog-number-batch/show-dialog-number-batch.component'

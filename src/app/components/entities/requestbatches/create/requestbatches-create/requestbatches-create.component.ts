@@ -56,7 +56,7 @@ export class RequestbatchesCreateComponent implements OnInit {
   save(){
 
     this.requestbatchesservice.addRequestbatches(this.requestbatches).subscribe(response => {
-      if (this.status === 'success'){
+      if (this.status = 'success'){
         swal(
           'Sucursal creada!!',
           'La sucursal se ha creado correctamente',
@@ -71,7 +71,7 @@ export class RequestbatchesCreateComponent implements OnInit {
           'error'
         );
       }
-
+      location.reload(true);
     }, error => {
       console.log(error);
       this.status = 'error';
